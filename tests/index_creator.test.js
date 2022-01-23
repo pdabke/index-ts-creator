@@ -26,7 +26,7 @@ beforeAll( () => {
   setupTargetFiles();
 });
 
-afterAll(async () => {
+afterAll( () => {
   cleanupTargetFiles();
 });
 
