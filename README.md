@@ -9,7 +9,7 @@ your typescript project:
       Class1.ts
       Class2.ts
 ```
-Running `create_index_ts src` from project root directory will generate `index.ts` file in the
+Running `index-ts-creator src` from project root directory will generate `index.ts` file in the
 `src` directory with the following content:
 ```
 export * from "./Class1";
@@ -18,14 +18,14 @@ export * from "./Class2";
 ## Usage
 Install globally or locally
 ```
-npm i [-g] @nabh/create-index-ts
+npm i [-g] @nabh/index-ts-creator
 ```
 Create index.ts file in current directory
 ```
-create_index_ts
+index-ts-creator
 ```
 
 Create index.ts file in directory `src`
 ```
-create_index_ts src
+index-ts-creator src
 ```

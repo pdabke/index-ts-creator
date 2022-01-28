@@ -1,10 +1,10 @@
 {
   "name": "@nabh/index-ts-creator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Simple utility that creates index.ts file that imports and reexports all .ts files in a directory",
   "main": "src/index_creator.js",
   "bin": {
-    "create_index_ts": "bin/create_index_ts.js"
+    "index-ts-creator": "bin/index-ts-creator.js"
   },  "scripts": {
     "test": "jest",
     "lint": "npx eslint --fix src/**"
