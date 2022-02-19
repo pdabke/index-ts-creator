@@ -14,7 +14,7 @@ function createIndex(folder) {
     if (pkgObj.description) {
       indexContent += "/**" + os.EOL;
       indexContent += " * " + pkgObj.description + os.EOL;
-      if (pkgObj.version) indexContent += " * @version " + pkgObj.version + os.EOL;
+      if (pkgObj.version) indexContent += " * @remarks Version " + pkgObj.version + os.EOL;
       indexContent += " *" + os.EOL
       indexContent += " * @packageDocumentation" + os.EOL
       indexContent += " */" + os.EOL;
