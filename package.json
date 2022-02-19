@@ -1,6 +1,6 @@
 {
   "name": "@nabh/index-ts-creator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple utility that creates index.ts file that imports and reexports all .ts files in a directory",
   "main": "src/index_creator.js",
   "bin": {

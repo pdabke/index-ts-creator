@@ -1,0 +1,8 @@
+/**
+ * Package to test index-ts-creator
+ * Version 1.1.1
+ *
+ * @packageDocumentation
+ */
+export * from "./Test1";
+export * from "./Test2";
