@@ -1,6 +1,6 @@
 /**
  * Package to test index-ts-creator
- * Version 1.1.1
+ * @version 1.1.1
  *
  * @packageDocumentation
  */
